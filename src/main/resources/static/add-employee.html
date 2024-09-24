@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Add Employee</title>
+</head>
+<body>
+    <header>
+        <h1>Add Employee</h1>
+    </header>
+    <form id="employeeForm" action="/employee" method="post">
+    
+        <label for="employeeName">Name:</label>
+        <input type="text" id="employeeName" name="employeeName" required>
+        
+        <label for="dateOfJoining">Date of Joining:</label>
+        <input type="date" id="dateOfJoining" name="dateOfJoining" required>
+        
+        <label for="mobile">Mobile:</label>
+        <input type="text" id="mobile" name="mobile" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="salary">Salary:</label>
+        <input type="number" id="salary" name="salary" required>
+        
+        <label for="designation">Designation:</label>
+        <input type="text" id="designation" name="designation" required>
+        
+        <label for="alternativeMobile">Alternative Mobile:</label>
+        <input type="text" id="alternativeMobile" name="alternativeMobile">
+        
+        <button type="submit">Add Employee</button>
+    </form>
+    <script src="scriptadd.js"></script>
+</body>
+</html>
